@@ -17,7 +17,7 @@ const renderProduct = (x, img) => {
 const renderPage = list => {
     const productsList = list.map(item => renderProduct(item,item.img));
     console.log(productsList);
-    document.querySelector('.products').innerHTML = productsList;
+    document.querySelector('.products').innerHTML = productsList.join(' ');
 };
 
 renderPage(products);
