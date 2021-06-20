@@ -1,0 +1,26 @@
+.btn-cart {
+    background-color: #696969;
+    color: #F5F5F5;
+    border-radius: 5px;
+    padding: 10px 45px;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.buy-btn {
+    background-color: #696969;
+    color: #F5F5F5;
+    border-radius: 5px;
+    padding: 5px 30px;
+    font-size: 18px;
+}
