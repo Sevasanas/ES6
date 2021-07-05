@@ -4,6 +4,7 @@ const app = new Vue({
     el: '#app',
     data: {
         userSearch: '',
+        isVisibleCart: false,
         catalogUrl: '/catalogData.json',
         cartUrl: '/getBasket.json',
         cartItems: [],
